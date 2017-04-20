@@ -2,7 +2,7 @@
 
 namespace BotFactory.Models
 {
-    public class HAL : WorkingUnit
+    public class HAL : TestingUnit
     {
         public HAL(string name,Coordinates parkingPos, Coordinates workingPos) : base("HAL",name,parkingPos,workingPos, 0.5,7)
         {
